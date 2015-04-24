@@ -188,7 +188,7 @@ function results_grid_transition(sum) {
     $("#mobile-attribution").hide();
 
     FB.init({
-        appId:'1595538550682763', cookie:true,
+        appId:'1626123840957567', cookie:true,
         status:true, xfbml:true
     });
     // $("#img-row").hide()
