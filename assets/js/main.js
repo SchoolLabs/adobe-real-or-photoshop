@@ -265,7 +265,7 @@ var pshop_images = ["Adobe_Mobile_PS_ImageSwap_032615", "Adobe_Mobile_PS_ImageSw
 var ps_correct_images = ["Feedback_Selected/PS-Correct/PS-correct-nailedit","Feedback_Selected/PS-Correct/PS-correct-skills","Feedback_Selected/PS-Correct/PS-correct-whatgave","Feedback_Selected/PS-Correct/PS-correct-wish","Feedback_Selected/PS-Correct/PS-correct-yep"];
 var ps_wrong_images = ["Feedback_Selected/PS-Incorrect/PS-incorrect-cmon","Feedback_Selected/PS-Incorrect/PS-incorrect-convincing","Feedback_Selected/PS-Incorrect/PS-incorrect-duped","Feedback_Selected/PS-Incorrect/PS-incorrect-gotya","Feedback_Selected/PS-Incorrect/PS-incorrect-yep-that-good"];
 var real_correct_images = ["Feedback_Selected/Real-Correct/REAL-correct-cheating","Feedback_Selected/Real-Correct/REAL-correct-good-eye","Feedback_Selected/Real-Correct/REAL-correct-know-it-all","Feedback_Selected/Real-Correct/REAL-correct-right-on","Feedback_Selected/Real-Correct/REAL-correct-you-know"];
-var real_wrong_images  = ["Feedback_Selected/Real-Incorrect/REAL-incorrect-as-if","Feedback_Selected/Real-Incorrect/REAL-incorrect-at-best","Feedback_Selected/Real-Incorrect/REAL-incorrect-magic","Feedback_Selected/Real-Incorrect/REAL-incorrect-maybe","Feedback_Selected/Real-incorrect/REAL-incorrect-trust"];
+var real_wrong_images  = ["Feedback_Selected/Real-Incorrect/REAL-incorrect-as-if","Feedback_Selected/Real-Incorrect/REAL-incorrect-at-best","Feedback_Selected/Real-Incorrect/REAL-incorrect-magic","Feedback_Selected/Real-Incorrect/REAL-incorrect-maybe","Feedback_Selected/Real-Incorrect/REAL-incorrect-trust"];
 
 function getRandomImage(pshop,score) {
     var image_index = getRandomInt(0,4);
