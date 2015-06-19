@@ -172,11 +172,11 @@ function twenty_five_transition() {
 
 function results_grid_transition(sum) {
     var varScore = sum.toString();
-    var shareURL = "http://dev.schooldoes.com/adobe/www-v10";
+    var shareURL = "http://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop";
     var shareText="I got "+varScore+"/25 right. How would you do in the Real or Photoshop quiz? Test to see what you see: #Photoshop25"; // used by twitter share
     var shareDesc="Photoshop users make the impossible possible, for that we thank them for taking creativity to places we never could've dreamed. Some things are so amazing, we're not sure if they're Real or Photoshop.";
     var twitterShareDesc="Some things are so amazing, we're not sure if they're Real or Photoshop.";
-    var shareImage = "http://dev.schooldoes.com/adobe/www-v10/assets/img/social_share/Adobe_Facebook_1200x630_v3.jpg";
+    var shareImage = "http://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/assets/img/social_share/Adobe_Facebook_1200x630_v3.jpg";
 
     $("#below-main-mobile").hide();
     $("#left-for-fake").hide();
