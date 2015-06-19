@@ -1,5 +1,5 @@
 /* indicates whether image is real or fake */
-var IMAGES = [0,0,1,1,0,1,1,1,0,0,0,0,1,0,1,1,1,0,0,1,1,0,0,1,1];
+var IMAGES = [0,1,0,1,1,1,1,0,1,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,1];
 var BEG_DELTA = 120;
 var SWIPE_SPEED = 250;
 var HIGHLIGHT_SPEED = 250;
@@ -15,31 +15,31 @@ var once = false;
 var transitionTime = 2400;
 var hover_lock = false;
 var check_or_x = "Adobe_Desktop_X_V1";
-var att_arr = ["Alter &copy; 2011",
-               "Dariusz Klimczak &copy; 2015",
-               "Alexander Remnev &copy; 2015",
-               "Aman Agrawal &copy; 2015",
-               "Ibrahim Oubahmane &copy; 2015",
-               "Andreas Tauber &copy; 2015",
-               "Benjamin Von Wong &copy; 2014",
-               "Corey Rich &copy; 2002",
-               "Caras Ionut &copy; 2014",
-               "Caras Ionut &copy; 2014",
-               "Caras Ionut &copy; 2014",
-               "Joel Robison / Trevillion Images &copy; 2015",
-               "Dimitris Vavylis / Caters News &copy; 2011",
-               "John Wilhelm &copy; 2015",
-               "Eco Suparman / Caters News &copy; 2012",
-               "Lauri Tammik &copy; 2015",
-               "Martin Le-May &copy; 2015",
-               "Richard Silvera &copy; 2015",
-               "Rudi Young &copy; 2015",
-               "Natalie Fletcher &copy; 2013",
-               "Olga Gladysheva &copy; 2015",
-               "St<font face='Symbol'>&#233;</font>fane Gautier &copy; 2015",
-               "Tawan Chaisom &copy; 2015",
-               "Pete McBride &copy; 2011",
-               "Yaroslav Segeda &copy; 2015"];
+var att_arr = ["Abbey Benson &copy;",
+                "Benjamin Von Wong &copy;",
+                "Maximilian Gibas &copy;",
+                "Glen Wexler &copy;",
+                "Andreas Tauber &copy;",
+                "Jeronimo Contreras Flores &copy;",
+                "Christian Adam / Massif &copy;",
+                "Joel Robison / Trevillion Images &copy;",
+                "Natalie Fletcher &copy;",
+                "Max Ellis / Caters News &copy;",
+                "Adrian Chudek &copy;",
+                "Ionut Caras &copy;",
+                "Andres Amador &copy;",
+                "Oleg Belov &copy;",
+                "Esmar Abdul &copy;",
+                "Oliver Zwilling &copy;",
+                "Andrey Shupilo / Adobe Stock &copy;",
+                "Matthias Leberle &copy;",
+                "Aman Agrawal &copy;",
+                "Hossein Zare &copy;",
+                "Glen Wexler &copy;",
+                "Corey Rich &copy;",
+                "Ben Heine &copy;",
+                "Deborah DeFranco &copy;",
+                "Pete McBride &copy;"];
 
 setMobileOperatingSystemLinks();
 

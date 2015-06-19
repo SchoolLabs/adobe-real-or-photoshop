@@ -1,3 +1,5 @@
+var firstPhotographerCopyright = "Abbey Benson &copy;";
+
 function splash_screen_transition() {
     /* Event handlers */
     if (Modernizr.touch) {
@@ -112,7 +114,7 @@ function twenty_five_transition() {
             "height": "70%"
         });
         $("#img-col").append("<div id='mobile-attribution' class='row'></div>");
-        $("#mobile-attribution").append("<p id='att-text'>Alter &copy; 2011</p>");
+        $("#mobile-attribution").append("<p id='att-text'> "+firstPhotographerCopyright+" 2011</p>");
         $("#img-col").append("<div id='below-main-mobile' class='row'></div>");
         // $("#below-main-mobile").append("<img id='left-real-mobile' class='col-xs-offset-1 col-xs-2' src='assets/img/new/Adobe_MobileStates_LeftForReal.png'></img>");
         // $("#below-main-mobile").append("<img id='swipe-mobile' class='col-xs-offset-2 col-xs-2' src='assets/img/new/Adobe_MobileStates_Swipe.png'></img>");
@@ -133,7 +135,7 @@ function twenty_five_transition() {
         $("#desktop-right-section").append("<img class='center-block' id='desktop-or' src='assets/img/new/Adobe_Desktop_Or.png'>");
         $("#desktop-right-section").append("<img class='center-block' id='desktop-photoshop' src='assets/img/buttons/photoshop_off_btn.png'>");
         $("#img-col").append("<div id='desktop-attribution' class='row'></div>");
-        $("#desktop-attribution").append("<p id='att-text'>Alter &copy; 2011</p>");
+        $("#desktop-attribution").append("<p id='att-text'>"+firstPhotographerCopyright+"</p>");
 
         $("#desktop-real").hover(
             function() {
